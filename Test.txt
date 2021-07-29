@@ -1,0 +1,5 @@
+- TO TEST :
+
+    In case, from or to address is null, the distance is 0
+             from and to address is same, the distance is 0
+             in other, the distance likes {"distance":"2,840 km"}
