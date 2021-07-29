@@ -1,0 +1,79 @@
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57481/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:57481
+DEBUG:urllib3.connectionpool:http://127.0.0.1:57481 "POST /session HTTP/1.1" 200 790
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:57481/session/f762ccf29763ed39e8a938eee4ae29f4/url {"url": "https://www.google.fr/maps/dir/paris/moscow/data=!4m2!4m1!3e0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:57481 "POST /session/f762ccf29763ed39e8a938eee4ae29f4/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:57481/session/f762ccf29763ed39e8a938eee4ae29f4/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:57481 "GET /session/f762ccf29763ed39e8a938eee4ae29f4/source HTTP/1.1" 200 707942
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:app:{'distance': '2,840 km'} The result is 
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 12:56:11] "[37mGET /distance/paris/moscow HTTP/1.1[0m" 200 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:65249/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:65249
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65249 "POST /session HTTP/1.1" 200 791
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:65249/session/7c3f2200db0b667517f50c9adff7a775/url {"url": "https://www.google.fr/maps/dir/paris/lyon/data=!4m2!4m1!3e0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65249 "POST /session/7c3f2200db0b667517f50c9adff7a775/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:65249/session/7c3f2200db0b667517f50c9adff7a775/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:65249 "GET /session/7c3f2200db0b667517f50c9adff7a775/source HTTP/1.1" 200 1223916
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:app:{'distance': '466 km'} The result is 
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 12:57:43] "[37mGET /distance/paris/lyon HTTP/1.1[0m" 200 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61813/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61813
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61813 "POST /session HTTP/1.1" 200 791
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61813/session/d8864ff2ec062f4f68c9bd0aef9d1775/url {"url": "https://www.google.fr/maps/dir/paris/lyon/data=!4m2!4m1!3e0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61813 "POST /session/d8864ff2ec062f4f68c9bd0aef9d1775/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61813/session/d8864ff2ec062f4f68c9bd0aef9d1775/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61813 "GET /session/d8864ff2ec062f4f68c9bd0aef9d1775/source HTTP/1.1" 200 1035643
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 13:02:56] "[37mGET /distance/paris/lyon HTTP/1.1[0m" 200 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50025/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:50025
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50025 "POST /session HTTP/1.1" 200 791
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:50025/session/306391db61678dc11f902577f6b32698/url {"url": "https://www.google.fr/maps/dir/paris/lyon/data=!4m2!4m1!3e0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50025 "POST /session/306391db61678dc11f902577f6b32698/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:50025/session/306391db61678dc11f902577f6b32698/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:50025 "GET /session/306391db61678dc11f902577f6b32698/source HTTP/1.1" 200 1036699
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:app:{'distance': '466 km'} The result is 
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 13:06:06] "[37mGET /distance/paris/lyon HTTP/1.1[0m" 200 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+INFO:app:%s Cannot calculate in the same address
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 15:09:22] "[37mGET /distance/paris/paris HTTP/1.1[0m" 200 -
+DEBUG:root:This message should go to the log file
+INFO:root:So should this
+WARNING:root:And this, too
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61798/session {"capabilities": {"firstMatch": [{}], "alwaysMatch": {"browserName": "chrome", "platformName": "any", "goog:chromeOptions": {"extensions": [], "args": []}}}, "desiredCapabilities": {"browserName": "chrome", "version": "", "platform": "ANY", "goog:chromeOptions": {"extensions": [], "args": []}}}
+DEBUG:urllib3.connectionpool:Starting new HTTP connection (1): 127.0.0.1:61798
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61798 "POST /session HTTP/1.1" 200 790
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:POST http://127.0.0.1:61798/session/2dd02b61f3bc29888d385cac282da2d1/url {"url": "https://www.google.fr/maps/dir/paris/moscow/data=!4m2!4m1!3e0"}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61798 "POST /session/2dd02b61f3bc29888d385cac282da2d1/url HTTP/1.1" 200 14
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+DEBUG:selenium.webdriver.remote.remote_connection:GET http://127.0.0.1:61798/session/2dd02b61f3bc29888d385cac282da2d1/source {}
+DEBUG:urllib3.connectionpool:http://127.0.0.1:61798 "GET /session/2dd02b61f3bc29888d385cac282da2d1/source HTTP/1.1" 200 709179
+DEBUG:selenium.webdriver.remote.remote_connection:Finished Request
+INFO:app:{'distance': '2,840 km'} The result is 
+INFO:werkzeug:127.0.0.1 - - [29/Jul/2021 15:09:44] "[37mGET /distance/paris/moscow HTTP/1.1[0m" 200 -
